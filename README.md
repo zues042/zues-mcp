@@ -9,6 +9,7 @@ No account. No name. Free while building.
 - **check_coin** — one-line read on a coin: big-trader counts on each side, net position, latest moves
 - **the_board** — every coin the tracked group holds or touched, ranked most one-sided first
 - **track_record** — every strong group signal and whether the coin went where we read it 1 hour later
+- **greenlight_feed** — pollable feed: every strong group signal since a timestamp, with 1h/24h outcomes once they land
 - **key_words** — pull the words and sentences that carry a block of text
 - **shorten** — the short version of a block of text
 

@@ -1,13 +1,26 @@
 {
-  "name": "zues",
-  "display_name": "Zues — big-trader reads for crypto",
-  "description": "Check any coin: are the big traders leaning up, leaning down, or fighting each other. Public track record of every strong signal and its outcome. Plus light text tools. No account, no name, free while building.",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.zues042/zues-mcp",
+  "title": "Zues \u2014 big-trader reads for crypto",
+  "description": "Check any coin: are big traders leaning up, down, or split. Public track record. Keyless.",
   "homepage": "https://zues.sarl",
-  "remote": {
-    "url": "https://zues.sarl/mcp",
-    "transport": "STREAMABLE_HTTP",
-    "auth": "none"
+  "repository": {
+    "url": "https://github.com/zues042/zues-mcp",
+    "source": "github"
   },
-  "tools": ["check_coin", "the_board", "track_record", "key_words", "shorten"],
-  "categories": ["finance", "research-data"]
+  "version": "0.3.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://zues.sarl/mcp"
+    }
+  ],
+  "tools": [
+    "check_coin",
+    "the_board",
+    "track_record",
+    "greenlight_feed",
+    "key_words",
+    "shorten"
+  ]
 }
