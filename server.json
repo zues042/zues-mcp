@@ -1,0 +1,13 @@
+{
+  "name": "zues",
+  "display_name": "Zues — big-trader reads for crypto",
+  "description": "Check any coin: are the big traders leaning up, leaning down, or fighting each other. Public track record of every strong signal and its outcome. Plus light text tools. No account, no name, free while building.",
+  "homepage": "https://zues.sarl",
+  "remote": {
+    "url": "https://zues.sarl/mcp",
+    "transport": "STREAMABLE_HTTP",
+    "auth": "none"
+  },
+  "tools": ["check_coin", "the_board", "track_record", "key_words", "shorten"],
+  "categories": ["finance", "research-data"]
+}
